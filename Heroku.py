@@ -96,7 +96,7 @@ with st.sidebar.header('1. Upload your CSV data'):
 
 # Sidebar - Specify parameter settings
 with st.sidebar.header('2. Set Parameters'):
-    split_size = st.sidebar.slider('Data split ratio (% for Training Set)', 10, 90, 80, 5)
+    split_size = st.sidebar.slider('Data split ratio (% for Training Set)', 10, 90, 50, 5)
 
 with st.sidebar.subheader('2.1. Learning Parameters'):
     parameter_n_estimators = st.sidebar.slider('Number of estimators (n_estimators)', 0, 1000, 100, 100)
